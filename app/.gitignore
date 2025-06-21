@@ -1,0 +1,46 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# 📦 Virtual Envs
+venv/
+env/
+.venv/
+.env/
+
+# 🗝️ Environment Variables
+*.env
+.env.*
+
+# 📜 Logs
+*.log
+*.log.*
+
+# 🧪 Test Cache
+.pytest_cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# 📂 Flask-specific
+instance/
+*.sqlite3
+
+# 🧠 IDEs & Editor Stuff
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🚀 Deployment Stuff (optional)
+.DS_Store
+*.egg-info/
+build/
+dist/
+*.bak
