@@ -7,6 +7,9 @@ def get_home():
 def get_health():
     return "✅ Server is up and running!"
 
+def get_about():
+    return "This is Vardaan testing stuff out"
+
 def get_time():
     now = datetime.datetime.now()
     return f"🕒 Current server time: {now.strftime('%Y-%m-%d %H:%M:%S')}"

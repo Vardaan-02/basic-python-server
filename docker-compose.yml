@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   flask-app:
-    image: flask-app
+    image: vardaan02/flask-app
     ports:
       - "8000:8000"
     env_file:
