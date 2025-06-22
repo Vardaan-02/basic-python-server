@@ -8,7 +8,7 @@ def get_health():
     return "✅ Server is up and running!"
 
 def get_about():
-    return "This is Vardaan testing stuff out"
+    return "This is Vardaan."
 
 def get_time():
     now = datetime.datetime.now()
